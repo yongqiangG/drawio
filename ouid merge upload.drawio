@@ -1,1 +1,110 @@
-<mxfile host="app.diagrams.net" modified="2021-08-19T07:39:57.491Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" version="14.9.7" etag="pHBtyFdoCMa2dg2unQf0" type="github"><diagram id="Wh3qGtyPMzCDxAoA49Dd">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-19T08:02:45.492Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="bXP4_2w0wfZuUv95_z6O" version="14.9.7" type="github">
+  <diagram id="Wh3qGtyPMzCDxAoA49Dd" name="第 1 页">
+    <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="atSc25nskkd-39tMVGj_-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="atSc25nskkd-39tMVGj_-1" target="atSc25nskkd-39tMVGj_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="atSc25nskkd-39tMVGj_-1" value="获取所有商业主题店铺" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="340" y="40" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="atSc25nskkd-39tMVGj_-3" value="&lt;h1&gt;前置&lt;/h1&gt;&lt;div&gt;1. hyt表新增OmidS&lt;span&gt;yncTime字段，表示当前同步的的会员bind表的UpdateTime&lt;/span&gt;&lt;/div&gt;&lt;div&gt;2. 每个店铺单独一个线程&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="30" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="atSc25nskkd-39tMVGj_-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="atSc25nskkd-39tMVGj_-4" target="atSc25nskkd-39tMVGj_-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="atSc25nskkd-39tMVGj_-27" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="atSc25nskkd-39tMVGj_-26">
+          <mxGeometry x="-0.6547" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="atSc25nskkd-39tMVGj_-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="atSc25nskkd-39tMVGj_-4" target="atSc25nskkd-39tMVGj_-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="atSc25nskkd-39tMVGj_-30" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="atSc25nskkd-39tMVGj_-29">
+          <mxGeometry x="-0.5931" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="atSc25nskkd-39tMVGj_-4" value="是否存在OmidSyncTime" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="120" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="atSc25nskkd-39tMVGj_-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="atSc25nskkd-39tMVGj_-7" target="atSc25nskkd-39tMVGj_-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="atSc25nskkd-39tMVGj_-7" value="增量10秒获取ouid" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="230" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="atSc25nskkd-39tMVGj_-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="atSc25nskkd-39tMVGj_-10" target="atSc25nskkd-39tMVGj_-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="atSc25nskkd-39tMVGj_-10" value="根据ouid获取omid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="atSc25nskkd-39tMVGj_-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="atSc25nskkd-39tMVGj_-18" target="atSc25nskkd-39tMVGj_-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="atSc25nskkd-39tMVGj_-36" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="atSc25nskkd-39tMVGj_-35">
+          <mxGeometry x="-0.8577" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="atSc25nskkd-39tMVGj_-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="atSc25nskkd-39tMVGj_-18" target="atSc25nskkd-39tMVGj_-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="atSc25nskkd-39tMVGj_-38" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="atSc25nskkd-39tMVGj_-37">
+          <mxGeometry x="-0.8722" y="3" relative="1" as="geometry">
+            <mxPoint y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="atSc25nskkd-39tMVGj_-18" value="查询ext表omid是否存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="410" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="atSc25nskkd-39tMVGj_-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="atSc25nskkd-39tMVGj_-19" target="atSc25nskkd-39tMVGj_-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="atSc25nskkd-39tMVGj_-19" value="合并客户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="atSc25nskkd-39tMVGj_-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="atSc25nskkd-39tMVGj_-20" target="atSc25nskkd-39tMVGj_-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="atSc25nskkd-39tMVGj_-20" value="上报数脉" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="atSc25nskkd-39tMVGj_-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="atSc25nskkd-39tMVGj_-23" target="atSc25nskkd-39tMVGj_-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="740" />
+              <mxPoint x="560" y="65" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="atSc25nskkd-39tMVGj_-43" value="刷新店铺信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="atSc25nskkd-39tMVGj_-42">
+          <mxGeometry x="-0.5899" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="atSc25nskkd-39tMVGj_-23" value="更新OmidSyncTime" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="345" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="atSc25nskkd-39tMVGj_-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="atSc25nskkd-39tMVGj_-24" target="atSc25nskkd-39tMVGj_-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="atSc25nskkd-39tMVGj_-24" value="ext表新增omid信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="atSc25nskkd-39tMVGj_-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="atSc25nskkd-39tMVGj_-28" target="atSc25nskkd-39tMVGj_-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="atSc25nskkd-39tMVGj_-28" value="查找最早入会的会员的UpdateTime，并设置为OmidSyncTime" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
